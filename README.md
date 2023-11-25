@@ -24,9 +24,9 @@ When you are logged in you can download a pdf from the secrets page.
 The login/register button are removed from the nav bar when you are logged in.
 
 ## Technologies / modules
-Python
-sqlalchemy
-flask
-flask_login
-flask_sqlalchemy
-werkzeug.security
+Python,
+sqlalchemy,
+flask,
+flask_login,
+flask_sqlalchemy,
+werkzeug.security.
