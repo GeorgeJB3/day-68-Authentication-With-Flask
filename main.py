@@ -87,6 +87,7 @@ def login():
             return redirect(f"/secrets/{name}")
         else:
             flash("Password incorrect. Please try again")
+            return redirect(url_for("login"))
     return render_template("login.html")
 
 
@@ -114,3 +115,4 @@ def download():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
